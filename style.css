@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 40px 20px;
+}
+.container-body {
+  max-width: 1012px;
+  padding: 1cm 2cm 1cm 3cm;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+#name,
+#applicant {
+  padding-bottom: 3px;
+  border-bottom: 1px solid #eaecef;
+}
+.project-link {
+  color: black;
+  text-decoration: none;
+}
+.project-link:hover {
+  background-color: #c8cace;
+}
