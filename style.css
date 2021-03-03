@@ -19,10 +19,22 @@ body {
   padding-bottom: 3px;
   border-bottom: 1px solid #eaecef;
 }
+.main {
+  margin: 1cm 0;
+}
 .project-link {
   color: black;
   text-decoration: none;
 }
 .project-link:hover {
   background-color: #c8cace;
+}
+.footer {
+  margin: 0 auto;
+  padding: 1cm 0;
+  border-top: 1px solid #eaecef;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
